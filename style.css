@@ -1,0 +1,92 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  margin: 50px;
+}
+
+section {
+  border: 2px solid black;
+  background-color: #b48f8ffd;
+  width: 90%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-family: Helvetica;
+  color: rgb(17, 16, 16);
+}
+h3{
+   
+ offset:inherit;
+  color: black;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 15px;
+} 
+section>#p1{
+ 
+   position: relative;
+  /* top: 10px;
+  right: 10px; */
+  color: rgb(10, 10, 12);
+  border: 2px solid black;
+ background-color: rgb(241, 148, 148);
+}
+#p2{
+  color: black;
+  border: 2px solid black;
+ background-color: rgb(47, 137, 197);
+}
+
+#p3{
+  position: relative;
+  /* top: 10px;
+  right: 10px; */
+  color: white;
+  border: 2px solid black;
+ background-color: rgb(221, 16, 177);
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+   
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6, .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
